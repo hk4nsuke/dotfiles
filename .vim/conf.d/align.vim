@@ -1,0 +1,1 @@
+vnoremap <leader>ali :Align 

@@ -1,0 +1,10 @@
+" タブの画面上での幅
+set tabstop=4
+" インデントの幅
+set shiftwidth=4
+" タブをスペースに展開する
+set expandtab
+" ソフトタブ化の為、ハードタブを可視化
+" ついでに行末の空白も可視化
+set list
+set listchars=tab:▸\ ,trail:\ ,
