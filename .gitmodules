@@ -1,0 +1,9 @@
+[submodule ".tmux/tmux-powerline"]
+	path = .tmux/tmux-powerline
+	url = git@github.com:hk4nsuke/tmux-powerline.git
+[submodule ".vim/bundle/neobundle.vim"]
+	path = .vim/bundle/neobundle.vim
+	url = https://github.com/Shougo/neobundle.vim.git
+[submodule ".zsh/zsh-syntax-highlighting"]
+	path = .zsh/zsh-syntax-highlighting
+	url = https://github.com/hk4nsuke/zsh-syntax-highlighting

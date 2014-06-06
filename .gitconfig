@@ -1,0 +1,10 @@
+[color]
+    ui = auto
+[core]
+    pager = lv -c
+    excludesfile = ~/.gitignore
+    editor = vi
+[push]
+    default = current
+[pull]
+    default = current

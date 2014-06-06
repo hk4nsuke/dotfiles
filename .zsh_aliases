@@ -1,0 +1,21 @@
+
+# alias
+#-----------------------------------------------------------------------------
+if [ -s "/etc/debian_version" ]; then
+    COLOR_FLAG="--color=auto"
+fi
+
+alias ls="ls -aF $COLOR_FLAG"
+
+alias grep="grep $COLOR_FLAG"
+alias fgrep="fgrep $COLOR_FLAG"
+alias egrep="egrep $COLOR_FLAG"
+
+alias cdiff='colordiff'
+
+alias ll='ls -l'
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -i'
+
+# EOF
