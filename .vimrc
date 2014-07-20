@@ -86,6 +86,9 @@ set background=dark
 let g:solarized_termcolors=16
 colorscheme solarized
 
+" 補完時のプレビューウィンドウを非表示
+set completeopt-=preview
+
 " encoding
 "-----------------------------------------------------------------------------
 " 文字コード
@@ -258,6 +261,8 @@ NeoBundle 'osyo-manga/unite-choosewin-actions'
 NeoBundle 't9md/vim-choosewin'
 NeoBundle 'jdonaldson/vaxe'
 NeoBundle 'ujihisa/unite-colorscheme'
+NeoBundle 'davidhalter/jedi-vim'
+NeoBundle 'hynek/vim-python-pep8-indent'
 "NeoBundle 'violetyk/neocomplete-php.vim'
 "NeoBundle 'osyo-manga/vim-reanimate'
 "NeoBundle 'everzet/phpfolding.vim'

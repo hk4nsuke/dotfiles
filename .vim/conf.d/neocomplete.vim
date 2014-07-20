@@ -50,6 +50,12 @@ let g:neocomplete#enable_auto_select = 1
 " これ有効にしないと auto_select が不安定。ただ、これ有効にすると、neosnippets にて、完全一致の場合に候補に表示されなく鳴る
 let g:neocomplete#enable_refresh_always = 1
 
+" for python
+if !exists('g:neocomplete#force_omni_input_patterns')
+        let g:neocomplete#force_omni_input_patterns = {}
+endif
+let g:neocomplete#force_omni_input_patterns.python = '\h\w*\|[^. \t]\.\w*'
+
 " others
 let g:neocomplete#use_vimproc = 1
 

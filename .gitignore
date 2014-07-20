@@ -3,3 +3,4 @@
 .vim/memo/
 .vim/.netrwhist
 .vim/bundle
+.config/pudb
